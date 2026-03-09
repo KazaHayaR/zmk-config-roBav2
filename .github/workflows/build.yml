@@ -2,4 +2,5 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    # @main を @v0.3 に変更することで、安定したビルド環境を使用します
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3
