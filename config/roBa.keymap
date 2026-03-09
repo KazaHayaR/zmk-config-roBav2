@@ -139,7 +139,7 @@
 &trans     &kp F7  &kp F8  &kp F9          &kp F11                                                    &kp N7        &kp N8        &kp N9        &kp N0          &kp COLON
 &kp LG(A)  &kp F4  &kp F5  &kp LG(C)       &kp LG(X)  &kp LEFT_BRACE            &kp ASTERISK          &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp UNDERSCORE  &kp MINUS
 &kp LSHFT  &kp F1  &kp F2  &kp LG(V)       &kp LG(Z)  &kp RIGHT_BRACE           &kp LEFT_PARENTHESIS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD      &kp DOUBLE_QUOTES
-&trans     &trans  &trans  &kp LG(LS(N5))  &trans     &kp LS(LG(NUMBER_4))      &kp DEL               &trans                                                    &kp SLASH
+&kp LCTRL  &trans  &trans  &kp LG(LS(N5))  &trans     &kp LS(LG(NUMBER_4))      &kp DEL               &trans                                                    &kp SLASH
             >;
         };
 
