@@ -89,10 +89,10 @@
 
         FUNCTION {
             bindings = <
-&kp EXCLAMATION  &kp QUESTION  &kp HASH           &kp DOLLAR            &kp SLASH                       &kp LS(LBKT)  &kp LS(N8)  &kp LEFT_PARENTHESIS  &kp MINUS         &kp EQUAL
-&kp TAB          &trans        &kp RIGHT_BRACKET  &kp BSLH              &kp LS(N2)  &trans      &kp F7  &trans        &kp SQT     &kp SEMICOLON         &kp LBKT          &kp RBKT
-&kp LEFT_SHIFT   &trans        &kp LS(N8)         &kp LEFT_PARENTHESIS  &kp LS(N7)  &trans      &kp F8  &trans        &trans      &kp LESS_THAN         &kp GREATER_THAN  &kp BSLH
-&trans           &trans        &trans             &trans                &trans      &trans      &trans  &trans                                                            &kp LS(INTERNATIONAL_1)
+&kp EXCLAMATION  &kp QUESTION  &kp HASH           &kp DOLLAR            &kp SLASH                             &kp LS(LBKT)  &kp LS(N8)  &kp LEFT_PARENTHESIS  &kp MINUS         &kp EQUAL
+&kp TAB          &trans        &kp RIGHT_BRACKET  &kp BSLH              &kp LS(NUMBER_2)  &trans      &kp F7  &trans        &kp SQT     &kp SEMICOLON         &kp LBKT          &kp RBKT
+&kp LEFT_SHIFT   &trans        &kp LS(N8)         &kp LEFT_PARENTHESIS  &kp LS(NUMBER_7)  &trans      &kp F8  &trans        &trans      &kp LESS_THAN         &kp GREATER_THAN  &kp BSLH
+&trans           &trans        &trans             &trans                &trans            &trans      &trans  &trans                                                            &kp LS(INTERNATIONAL_1)
             >;
         };
 
@@ -125,10 +125,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))   &kp UP_ARROW    &kp LC(TAB)              &trans                        &kp LG(LEFT_ARROW)  &kp LS(LC(TAB))         &kp UP_ARROW    &kp RS(TAB)              &kp LG(RIGHT_ARROW)
-&kp TAB         &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &kp TAB  &kp HOME            &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END
-&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_WIN    &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans   &trans              &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans
-&kp LCTRL       &kp LEFT_ALT      &trans          &trans                   &trans   &trans      &trans   &trans                                                                               &trans
+&kp ESCAPE      &kp LC(LS(TAB))   &kp UP_ARROW    &kp LC(TAB)              &trans                        &trans    &kp LG(LEFT_ARROW)      &kp UP_ARROW    &kp LG(RIGHT_ARROW)      &kp LG(UP_ARROW)
+&kp TAB         &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &kp TAB  &kp HOME  &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END
+&kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_WIN    &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans   &trans    &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans
+&kp LCTRL       &kp LEFT_ALT      &trans          &trans                   &trans   &trans      &trans   &trans                                                                     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
